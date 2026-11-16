@@ -1,0 +1,30 @@
+2
+00:00:01,000 --> 00:00:03,000
+This is a line that is definitely way too long for a forty-two character English subtitle limit and should fail
+
+00:00:02,500 --> 00:00:05,000
+Overlap and missing number
+
+3
+00:00:06,000 --> 00:00:05,000
+End before start
+
+4
+00:00:07,000 --> 00:00:08,000
+你好你好你好你好你好你好你好你好你好
+
+5
+0:0:9,00 --> 00:00:12,000
+Bad timestamp format that can be normalized
+
+6
+00:00:13.000 --> 00:00:20.000
+Period as decimal comma, plus 简体中文 conversion 头发发现
+
+7
+00:00:21,000 --> 00:00:21,200
+Hi CPS is too fast here!!!
+
+8
+00:00:22,000 --> 00:00:24,000
+

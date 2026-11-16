@@ -1,0 +1,15 @@
+# Smithery project config. This server speaks MCP over stdio and needs no API keys.
+# Hosted Smithery deployments now prefer Streamable HTTP; for a hosted listing you
+# would add an HTTP transport. This file describes the local/stdio start command
+# used when Smithery (or a client) runs the server as a subprocess.
+# Docs: https://smithery.ai/docs
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+    additionalProperties: false
+  commandFunction: |-
+    (config) => ({ command: "node", args: ["dist/index.js"] })
+  exampleConfig: {}
