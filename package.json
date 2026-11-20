@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "MCP server that lints and safely fixes SubRip (.srt) subtitle files — timing, overlaps, CPS, line length, and numbering.",
   "license": "MIT",
-  "author": "Stanley J",
   "type": "module",
   "bin": {
     "srt-lint-mcp": "./dist/index.js"

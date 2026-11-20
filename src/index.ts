@@ -2,7 +2,7 @@
 /**
  * SRT Lint MCP server — stdio transport.
  * Tools: lint_srt, fix_srt, srt_stats.
- * This is a free side project by Stanley J (MIT).
+ * This is a free side project (MIT).
  */
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";

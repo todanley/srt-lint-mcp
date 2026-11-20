@@ -2,7 +2,7 @@
 
 An [MCP](https://modelcontextprotocol.io/) server that lints and safely fixes SubRip (`.srt`) subtitle files. It reuses the same engine as the [SRT Subtitle Lint](https://github.com/todanley/srt-subtitle-checker) VS Code extension and the free in-browser [SRT Subtitle Checker](https://todanley.github.io/srt-subtitle-checker/).
 
-This is a free side project by Stanley J. MIT licensed. It is not published to npm yet (an npm account is still needed for that).
+This is a free side project. MIT licensed. It is not published to npm yet (an npm account is still needed for that).
 
 ## Tools
 
